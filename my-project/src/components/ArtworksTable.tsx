@@ -47,7 +47,7 @@ export const ArtworksTable = () => {
     setSelectedRows(event.value);
   };
   return (
-    <div className="card" style={{ padding: '2rem' }}>
+    <div className="card" style={{ padding: '3rem' }}>
       <h1>Artworks from The Art Institute of Chicago</h1>
       <DataTable
         value={artworks}
